@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body{
+    background-image: url(./clock-two-backgrounds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.wrapper>div{
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+    text-align: center;
+}
+div.wrapper>div.form1{
+    margin-top: 50px;
+  
+}
+div.wrapper>div.form2{
+    margin-top: 70px;
+}
+input{
+    all: unset;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    margin: 8px 5px;
+    padding: 5px;
+    background-color: rgba(217, 237, 248, 0.603);
+    border-radius: 8px;
+    text-align: left;
+    color: rgb(51, 40, 40);
+}
+input.date{
+    width: 61px;
+}
+body{
+        background-color: rgb(183, 216, 197);
+
+}
+div.wrapper{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+button{
+    all: unset;
+    background-color: rgb(242, 63, 212);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: whitesmoke;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 720px;
+    font-size: 18px;
+    transition: 500ms all linear;
+}
+button:hover{
+    background-color: rgb(76, 223, 236);
+    color: rgb(61, 42, 42);
+}
+lable{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: nastaliq;
+    font-size: 20px;
+    color: rgb(54, 48, 48);
+}
+h1{
+    font-size: 20px;
+   
+    height: 30px;
+    font-weight: 200;
+    line-height: 30px;
+    font-style: italic;
+    background-color: rgba(156, 132, 132, 0.349);
+    display: inline-block;
+    width: fit-content;
+    margin-top: 8px;
+    border-radius: 8px;
+    
+}
+h1.birthday{
+    display: inline-block;
+    height: 37px;
+    vertical-align: top;
+    
+
+}
